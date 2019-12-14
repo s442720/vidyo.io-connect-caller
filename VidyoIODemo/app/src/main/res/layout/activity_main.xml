@@ -11,38 +11,36 @@
     tools:context="com.example.pfuternik.vidyoiodemo.MainActivity">
 
     <Button
-        android:text="Start"
+        android:text="Call the receiver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/button"
-        android:onClick="Start" />
+        android:id="@+id/start"/>
+
+<!--    <Button-->
+<!--        android:text="Connect"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:id="@+id/button2"-->
+<!--        android:onClick="Connect" />-->
 
     <Button
-        android:text="Connect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button2"
-        android:onClick="Connect" />
-
-    <Button
-        android:text="Disconnect"
+        android:text="Stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/button3"
-        android:onClick="Disconnect" />
+        android:id="@+id/stop"/>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/start"
         android:id="@+id/videoFrame">
 
     </FrameLayout>
