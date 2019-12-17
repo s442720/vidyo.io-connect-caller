@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity implements Connector.IConnec
 
         FirebaseUser firebaseUser = auth.getCurrentUser();
 
-        if (firebaseUser.getUid() == null) {
-            login(txt_email, txt_password);
-        }
+
+        login(txt_email, txt_password);
+        
 
         firebaseUser = auth.getCurrentUser();
         caller = firebaseUser.getUid();
